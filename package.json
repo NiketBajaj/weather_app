@@ -1,16 +1,27 @@
 {
-  "name": "weather_app",
+  "name": "weather",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://niketbajaj08.github.io/react-app-weather/",
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.15",
+    "@fortawesome/free-brands-svg-icons": "^5.7.2",
+    "@fortawesome/free-regular-svg-icons": "^5.7.2",
+    "@fortawesome/free-solid-svg-icons": "^5.7.2",
+    "@fortawesome/react-fontawesome": "^0.1.4",
+    "bootstrap": "^4.1.1",
+    "gh-pages": "^2.0.1",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
-    "react-scripts": "2.1.8"
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.5"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {

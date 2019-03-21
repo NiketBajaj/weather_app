@@ -31,3 +31,185 @@
     transform: rotate(360deg);
   }
 }
+
+.bodySection {
+  margin: 20px;
+
+  padding: 20px;
+}
+
+body {
+  font-family: "Open Sans", serif;
+}
+
+.wrapper {
+  background: linear-gradient(to right, #70bef4, #066ab0);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  height: 90vh;
+  background: #fff;
+  box-shadow: 0px 13px 40px -13px rgba(0, 0, 0, 0.75);
+  width: 80%;
+  margin: 0 auto;
+}
+
+.title-container {
+  height: 90vh;
+  background: url("photo/to.jpg") center center no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: rgb(11, 3, 82);
+}
+
+.title-container__title {
+  font-size: 50px;
+  letter-spacing: 2px;
+  line-height: 1.3;
+  font-family: "Roboto Slab", serif;
+}
+
+.title-container__subtitle {
+  font-style: italic;
+  font-size: 25px;
+  font-weight: 100;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  font-family: "Merriweather", serif;
+}
+
+.form-container {
+  background-color: #0a2333;
+  height: 90vh;
+  padding-top: 100px;
+  padding-left: 50px;
+}
+
+input {
+  background-color: transparent;
+  border: 0;
+  border-bottom: solid 1px #f16051;
+  width: 30%;
+  padding-bottom: 4px;
+  color: #000 !important;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+  margin-right: 20px;
+  font-size: 20px;
+}
+
+input {
+  outline: none;
+}
+
+input:-webkit-autofill {
+}
+
+button {
+  border: 0;
+  padding: 8px 20px;
+  margin: 0 2px;
+  border-radius: 2px;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  font-size: 15px;
+  cursor: pointer;
+  background-color: #49aee9;
+  color: #fff;
+  font-weight: 100;
+}
+
+button:active {
+  outline: none;
+}
+
+.weather__info {
+  width: 60%;
+  font-size: 20px;
+  font-weight: 200;
+  letter-spacing: 2px;
+}
+
+.weather_key {
+  border-bottom: solid 1px #000;
+  padding: 10px 0 10px 0;
+  font-weight: bold;
+}
+
+.weather_key:last-child {
+  border: 0;
+}
+
+.weather_value {
+  font-weight: 400;
+  color: darkgreen;
+}
+
+.weather_error {
+  color: red;
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-weight: 200;
+}
+
+.gallery {
+  margin: 20px;
+}
+.dialog {
+  box-shadow: 0 8px 6px -6px black;
+  position: static;
+  left: 20%;
+  top: 10%;
+}
+
+.image {
+  width: 300px;
+}
+
+.MenuNav_UL {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.MenuNav_LI {
+  float: left;
+}
+
+.MenuNav_Link {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+.MenuNav_Link:hover {
+  background-color: #111;
+  text-decoration: none;
+}
+
+.MenuNav_LI_Right {
+  float: right;
+}
+
+.MenuNav_Link_Right {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+.MenuNav_Link_Right:hover {
+  background-color: #111;
+  text-decoration: none;
+}
